@@ -40,24 +40,22 @@ setInterval(function () {
 				setTimeout("player.pause()", 5000);
 			} else if (minute === 23) {
 				player.src = "src/2023.mp3";
-			player.currentTime = 104.3;
-			player.play();
+				player.currentTime = 104.3;
+				player.play();
 
-			setTimeout("player.pause()", 3400);
+				setTimeout("player.pause()", 3400);
 			} else if (minute === 24) {
 				player.src = "src/2024.mp3";
-			player.currentTime = 129.5;
-			player.play();
+				player.currentTime = 129.5;
+				player.play();
 
-			setTimeout("player.pause()", 4500);
+				setTimeout("player.pause()", 4500);
 			}
 		}
 
 		lastMinute = minute;
 	}
 }, 1000);
-
-
 
 
 function test(index) {
