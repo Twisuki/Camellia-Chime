@@ -26,7 +26,6 @@ body {
 	float: left;
 	font-size: 95px;
 	font-weight: bold;
-
 }
 
 .display-hour {
@@ -42,5 +41,12 @@ body {
 }
 
 #colon {
+	width: 74px;
+	height: 180px;
+	text-align: center;
+	line-height: 180px;
+	float: left;
+	font-size: 95px;
+	font-weight: bold;
 	color: #aaaaaa;
 }
