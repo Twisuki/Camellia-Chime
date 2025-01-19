@@ -1,0 +1,46 @@
+body {
+	background-color: #2e2e44;
+}
+
+#container {
+	width: 400px;
+	height: 180px;
+	position: fixed;
+	left: calc(50vw - 200px);
+	top: calc(50vh - 90px);
+	border-radius: 20px;
+	box-shadow: -10px 0 10px #0bff8da0, 10px 0 10px #634dffa0, 0 -8px 10px #ae4af6a0, 0 8px 10px #5fd4ffa0;
+}
+
+#container-left-filler {
+	width: 15px;
+	height: 180px;
+	float: left;
+}
+
+.display {
+	width: 74px;
+	height: 180px;
+	text-align: center;
+	line-height: 180px;
+	float: left;
+	font-size: 95px;
+	font-weight: bold;
+
+}
+
+.display-hour {
+	background: linear-gradient(to bottom, #634dff, #5fd4ff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.display-minute {
+	background: linear-gradient(to bottom, #ff5e9e, #ffb960);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+#colon {
+	color: #aaaaaa;
+}
