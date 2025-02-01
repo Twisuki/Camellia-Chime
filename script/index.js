@@ -95,5 +95,12 @@ function test(index) {
 
 			setTimeout("player.pause()", 4200);
 			break;
+		case 0:
+			player.src = "src/He He He.mp3";
+			player.currentTime = 82.8;
+			player.play();
+
+			setTimeout("player.pause()", 100);
+			break;
 	}
 }
